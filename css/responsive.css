@@ -1,0 +1,96 @@
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .grid-container{
+    grid-template-columns: 1fr 1fr;
+}
+.container{
+        max-width: 991px;
+        padding: 0 30px;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    /* hero area responsive css */
+    .header-area {
+        display: none;
+    }
+    body{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container{
+        max-width: 767px;
+        padding: 0 25px;
+    }
+    .hero-area{
+        text-align: center;
+    }
+    .hero-area .flex-container {
+    flex-flow: column-reverse;
+}
+
+.hero-text h1 {
+    font-size: 28px;
+}
+
+/* Company responsive css */
+.complay-logo {
+    flex-basis: 22%;
+    margin-bottom: 5%;
+}
+
+.complay-logo img {
+    width: 70%;
+}
+.compaly .container{
+    padding: 30px 25px;
+}
+/* Product responsive css */
+.products-area{
+    padding: 0;
+}
+.grid-container{
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+}
+/* Featured Products */
+.featured-product {
+    padding-top: 40px;
+}
+.featured-product .flex-container{
+    flex-flow: column-reverse;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    text-align: center;
+    align-items: initial;
+}
+.featured-product .left-content,.featured-product .right-content{
+    flex-basis: 48%;
+}
+.right-content{
+    margin-bottom: 20px;
+}
+
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}

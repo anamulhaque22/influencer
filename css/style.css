@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+img {
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #E02C6D;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+.btn:hover {
+    background: #fc721e;
+    border-color: #fc721e;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header area CSS */
+.header-area {
+    padding: 80px 0;
+}
+.header-area .flex-container {
+    justify-content: space-between;
+}
+.logo a {
+    font-size: 24px;
+    color: #3A3A3A;
+    font-weight: 700;
+}
+.main-menu ul {
+    display: flex;
+}
+.main-menu ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.main-menu ul li a {
+    color: #3A3A3A;
+}
+
+
+/* Hero Area Style */
+.hero-area {
+    padding-bottom: 60px;
+}
+.hero-area .flex-container {
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-area .hero-text {
+    flex-basis: 48%;
+}
+.hero-text p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.hero-area .hero-ima {
+    flex-basis: 48%;
+}
+/* company style */
+.compaly .flex-container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.compaly .container {
+    padding: 40px 0;
+    border-top: 1px solid #DAE1E9;
+    border-bottom: 1px solid #DAE1E9;
+}
+
+/* product area css */
+.products-area {
+    padding: 100px 50px 50px 50px;
+}
+.products-area h1 {
+    color: #3A3A3A;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+.products-area .grid-container{
+    grid-gap: 30px;
+}
+.product-item {
+    padding: 25px 15px;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 10px;
+    border-radius: 10px;
+}
+.product-item h3 {
+    font-size: 28px;
+    color: #18191F;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.product-item p.price {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #787885;
+    line-height: 20px;
+}
+
+.ratting i {
+    color: #FB8200;
+}
+
+.ratting span {
+    color: #5E6366;
+    font-size: 14px;
+}
+
+.see-more {
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    display: block;
+    margin-top: 30px;
+}
+/* Featured Products */
+.featured-product {
+    padding-bottom: 80px;
+}
+.featured-product .flex-container {
+    align-items: center;
+}
+.featured-product .left-content {
+    flex-basis: 40%;
+}
+.featured-product .right-content {
+    flex-basis: 55%;
+}
+.right-content h2 {
+    font-size: 38px;
+    color: #0A0826;
+    line-height: 60px;
+}
+
+.right-content p {
+    color: #6C6C6C;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.right-content .btn {
+    border-radius: 0;
+}
+/* Footer Area CSS */
+.footer-area {
+    background: #0A0826;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-area h3 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-area p {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.social-icon {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.social-icon i {
+    font-size: 16px;
+    display: inline-block;
+    background: #22203B;
+    line-height: 16px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 50%;
+}
